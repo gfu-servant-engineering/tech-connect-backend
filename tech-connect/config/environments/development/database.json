@@ -1,0 +1,21 @@
+{
+  "defaultConnection": "default",
+  "connections": {
+    "default": {
+      "connector": "strapi-hook-mongoose",
+      "settings": {
+        "client": "mongo",
+        "host": "tech-connect-db.documents.azure.com",
+        "srv": false,
+        "port": "10255",
+        "database": "tech-connect-db",
+        "username": "tech-connect-db",
+        "password": "PZWP7G1c9KJImclgn8DjINcFXTJKNlXs5nM5mp6EpKL0w7JiE5TIRPUQB7aBy9lmPdnfCze9ZgmlKXDVZik8Kg=="
+      },
+      "options": {
+        "authenticationDatabase": "",
+        "ssl": true
+      }
+    }
+  }
+}
