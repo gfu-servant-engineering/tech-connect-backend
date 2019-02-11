@@ -3,7 +3,7 @@
 This directory contains the beginnings of the scripts used to configure our backend server. Each are works in progress and will continue to be updated throughout the semester. Each script is detailed below with its purpose and current status.
 
 ### server_config.sh
-This script installs all necessary support for docker and clones the strapi docker repo. It is currently using ap as the installation package manager. If running it on a distribution that does not support, just edit the script to use the correct package manager.
+This script installs all necessary support for docker and clones the strapi docker repo. It is currently using apt as the installation package manager. If running it on a distribution that does not support, just edit the script to use the correct package manager.
 
 ### server_setup.sh
 This was the first script written and is considered a trial run. The goals of this script include:
