@@ -63,11 +63,9 @@ $ sudo apt install docker-compose
 
 
 
-### Clone Strapi-Docker
+## Run Strapi App
 
-For more installation help, visit Strapi Docker's [repository](https://github.com/strapi/strapi-docker) 
-
-1. git clone `https://github.com/strapi/strapi-docker && cd strapi-docker`
+1. cd current_running_strapi
 2. Run using `SUDO docker-compose up`
 
 
