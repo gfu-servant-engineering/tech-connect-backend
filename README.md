@@ -6,4 +6,11 @@ This repository hosts the backend components of Tech Connect and consists of a c
 
 #### Install Docker CE
 
-Below are the steps for installing Docker CE on a Debian Instance. We found we had the most success with this linux distribution 
+Below are the steps for installing Docker CE on a Debian Instance. We found we had the most success with this linux distribution but if you're using a different one, visit [Docker's Documentation](https://docs.docker.com/glossary/?term=installation) for necessary steps.
+
+1. Update the `apt` package index:
+```
+$ sudo apt-get update
+```
+
+2. Install packages to allow `apt` to use a repository over HTTPS:
