@@ -14,3 +14,63 @@ $ sudo apt-get update
 ```
 
 2. Install packages to allow `apt` to use a repository over HTTPS:
+```
+$ sudo apt-get install \
+    apt-transport-https \
+    ca-certificates \
+    curl \
+    gnupg2 \
+    software-properties-common
+```
+
+3. Add Docker’s official GPG key:
+```
+$ curl -fsSL https://download.docker.com/linux/debian/gpg | sudo apt-key add -
+```
+
+4. Use the following command to set up the stable repository.
+```
+$ sudo add-apt-repository \
+   "deb [arch=amd64] https://download.docker.com/linux/debian \
+   $(lsb_release -cs) \
+   stable"
+```
+
+5. Update the `apt` package index.
+```
+$ sudo apt-get update
+```
+
+6. Install the latest version of Docker CE and containerd, or go to the next step to install a specific version:
+```
+$ sudo apt-get install docker-ce docker-ce-cli containerd.io
+```
+
+7. Verify that Docker CE is installed correctly by running the `hello-world` image.
+```
+$ sudo docker run hello-world
+```
+
+
+### Install docker-compose
+
+Before installing docker-compose verify that you don't already have it by running `sudo docker-compose`.
+
+If the command is not found, run the following command to install it:
+```
+$ sudo apt install docker-compose
+```
+
+
+
+## Clone Strapi-Docker
+
+For more installation help visit Strapi Docker's [repository](https://github.com/strapi/strapi-docker) 
+
+1. git clone `https://github.com/strapi/strapi-docker && cd strapi-docker`
+2. Run using `**SUDO** docker-compose up`
+
+
+## Troubleshooting
+
+If given a docker version error after running the `sudo docker-compose up` commnad, change the version in the docker-compose.yml file in your strapi project from 3 to 2. The problem should resolve itself.
