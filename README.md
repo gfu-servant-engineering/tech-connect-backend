@@ -1,4 +1,4 @@
-# tech-connect-backend
+# Tech Connect Backend
 
 This repository hosts the backend components of Tech Connect and consists of a cloned strapi-docker repo and some set up scripts. The directory of scripts contains a read me with more details about the purpose/current state of the scripts but for the most part they will not be necessary in environment setup.
 
@@ -56,21 +56,21 @@ $ sudo docker run hello-world
 
 Before installing docker-compose verify that you don't already have it by running `sudo docker-compose`.
 
-If the command is not found, run the following command to install it:
+If it's not found, run the following command to install it:
 ```
 $ sudo apt install docker-compose
 ```
 
 
 
-## Clone Strapi-Docker
+### Clone Strapi-Docker
 
-For more installation help visit Strapi Docker's [repository](https://github.com/strapi/strapi-docker) 
+For more installation help, visit Strapi Docker's [repository](https://github.com/strapi/strapi-docker) 
 
 1. git clone `https://github.com/strapi/strapi-docker && cd strapi-docker`
-2. Run using `**SUDO** docker-compose up`
+2. Run using `__SUDO__ docker-compose up`
 
 
 ## Troubleshooting
 
-If given a docker version error after running the `sudo docker-compose up` commnad, change the version in the docker-compose.yml file in your strapi project from 3 to 2. The problem should resolve itself.
+If given a docker version error after running the `sudo docker-compose up` command, change the version in the `docker-compose.yml` file in your strapi project from 3 to 2. The problem should be resolved.
