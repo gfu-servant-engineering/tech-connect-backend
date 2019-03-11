@@ -1,0 +1,21 @@
+{
+ "defaultConnection": "default",
+ "connections": {
+   "default": {
+     "settings": {
+       "client": "mongo",
+       "host": "tech-connect-lv49t.gcp.mongodb.net",
+       "srv": false,
+       "port": "27017",
+       "database": "strapi",
+       "username": "tech-connect-1",
+       "password": ""
+     },
+     "options": {
+       "authenticationDatabase": "strapi",
+       "ssl": false
+     },
+     "connector": "strapi-hook-mongoose"
+   }
+ }
+}

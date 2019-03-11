@@ -1,0 +1,47 @@
+{
+  "connection": "default",
+  "collectionName": "project",
+  "info": {
+    "name": "project",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "project_name": {
+      "default": "",
+      "type": "string"
+    },
+    "project_image": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "project_goals": {
+      "default": "",
+      "type": "text"
+    },
+    "project_holy_goals": {
+      "default": "",
+      "type": "text"
+    },
+    "project_description": {
+      "default": "",
+      "type": "text"
+    },
+    "project_timeline": {
+      "default": "",
+      "type": "date"
+    },
+    "project_help": {
+      "default": "",
+      "type": "text"
+    },
+    "profiles": {
+      "collection": "profile",
+      "via": "projects"
+    }
+  }
+}
