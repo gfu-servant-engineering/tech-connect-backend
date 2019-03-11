@@ -72,3 +72,30 @@ $ sudo apt install docker-compose
 ## Troubleshooting
 
 If given a docker version error after running the `sudo docker-compose up` command, change the version in the `docker-compose.yml` file in your strapi project from 3 to 2. The problem should be resolved.
+
+## Table Definitions
+
+### experience
+`experience_title`:`String`
+`experience_description`:`text`
+`profile`:relation to `profile` (many `experiences`, one `profile`)
+
+### skill
+`skill_name`:`String`
+`profile`:relation to `profile` (many `experiences`, one `profile`)
+
+### profile
+`profile_name`:`String`
+`skills`:relation to `skill` (many `skills`, one `profile`)
+`experiences`:relation to `experience` (many `experiences`, one `profile`)
+`projects`:relation to `project` (many `projects`, one `profile`)
+
+### project
+`project_name`:`String`
+`project_image`:`Media` (could be image, pdf, etc)
+`project_goals`:`text`
+`project_holy_goals`:`text`
+`project_description`:`text`
+`project_timeline`:`date`
+`project_help`:`text`
+`profiles`:relation to `profile` (one `project`, many `profiles`)
