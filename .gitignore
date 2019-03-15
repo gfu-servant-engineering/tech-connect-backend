@@ -39,4 +39,8 @@ node_modules
 # Optional REPL history
 .node_repl_history```
 
+# svg's, get them outta here!
+*.svg
 
+# Ignore extra styles/translations/utils/etc
+current_running_strapi/strapi-app/admin/**

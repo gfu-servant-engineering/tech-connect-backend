@@ -1,0 +1,21 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "skill",
+    "description": "A skill for an individual"
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "skill_name": {
+      "default": "",
+      "type": "string"
+    },
+    "profile": {
+      "model": "profile",
+      "via": "skills"
+    }
+  }
+}
