@@ -44,3 +44,4 @@ node_modules
 
 # Ignore extra styles/translations/utils/etc
 current_running_strapi/strapi-app/admin/**
+*.swp

@@ -18,6 +18,8 @@ RUN npm install -g strapi@3.0.0-alpha.24.1
 COPY strapi.sh ./
 RUN chmod +x ./strapi.sh
 
+COPY strapi-app ./strapi-app
+
 EXPOSE 1337
 
 COPY healthcheck.js ./
