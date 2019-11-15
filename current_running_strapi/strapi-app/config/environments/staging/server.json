@@ -1,5 +1,5 @@
 {
-  "host": "techconnect-api.ddns.net",
+  "host": "${process.env.SERVER_HOST || '127.0.0.1'}",
   "port": "${process.env.PORT || 1337}",
   "production": true,
   "proxy": {

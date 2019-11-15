@@ -2,20 +2,21 @@
   "defaultConnection": "default",
   "connections": {
     "default": {
+      "connector": "strapi-hook-mongoose",
       "settings": {
         "client": "mongo",
-        "host": "tech-connect-lv49t.gcp.mongodb.net",
-        "srv": true,
-        "port": "27017",
-        "database": "tech-connect-database",
-        "username": "tech-connect-1",
-        "password": "WhpZNYab2aulWlA0"
+        "host": "${process.env.DATABASE_HOST || '127.0.0.1'}",
+        "srv": "${process.env.DATABASE_SRV || false}",
+        "port": "${process.env.DATABASE_PORT || 27017}",
+        "database": "${process.env.DATABASE_NAME || 'strapi'}",
+        "username": "${process.env.DATABASE_USERNAME || ''}",
+        "password": "${process.env.DATABASE_PASSWORD || ''}"
       },
       "options": {
-        "authenticationDatabase": "admin",
-        "ssl": true
-      },
-      "connector": "strapi-hook-mongoose"
+        "authenticationDatabase": "${process.env.DATABASE_AUTHENTICATION_DATABASE || ''}",
+        "ssl": "${process.env.DATABASE_SSL || false}"
+      }
     }
   }
 }
+
