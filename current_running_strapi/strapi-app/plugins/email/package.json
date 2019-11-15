@@ -21,7 +21,7 @@
   "_resolved": "https://registry.npmjs.org/strapi-plugin-email/-/strapi-plugin-email-3.0.0-alpha.24.1.tgz",
   "_shasum": "0d774504c8a2a205c27edc2d79a7d41311028cef",
   "_spec": "strapi-plugin-email@3.0.0-alpha.24.1",
-  "_where": "/usr/src/api/strapi-app",
+  "_where": "/usr/src/api/tech-connect",
   "author": {
     "name": "Strapi team",
     "email": "hi@strapi.io",

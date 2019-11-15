@@ -1,5 +1,5 @@
 {
-  "name": "strapi-app",
+  "name": "tech-connect",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application.",
@@ -20,9 +20,7 @@
   },
   "dependencies": {
     "lodash": "^4.17.5",
-    "pg": "^7.8.1",
     "strapi": "3.0.0-alpha.24.1",
-    "strapi-hook-bookshelf": "^3.0.0-alpha.24.1",
     "strapi-hook-mongoose": "3.0.0-alpha.24.1"
   },
   "author": {
@@ -39,7 +37,7 @@
   ],
   "strapi": {
     "packageManager": "npm",
-    "uuid": "1c6e0784-72c7-4482-8b3b-01620c693937"
+    "uuid": "f3b969c2-1df8-4d3c-843b-be343a4561fd"
   },
   "engines": {
     "node": ">= 10.0.0",

@@ -1,5 +1,5 @@
 {
-  "host": "localhost",
+  "host": "techconnect-api.ddns.net",
   "port": 1337,
   "proxy": {
     "enabled": false

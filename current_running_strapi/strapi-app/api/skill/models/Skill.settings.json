@@ -1,9 +1,9 @@
 {
   "connection": "default",
-  "collectionName": "",
+  "collectionName": "skill",
   "info": {
     "name": "skill",
-    "description": "A skill for an individual"
+    "description": ""
   },
   "options": {
     "timestamps": true
@@ -12,10 +12,6 @@
     "skill_name": {
       "default": "",
       "type": "string"
-    },
-    "profile": {
-      "model": "profile",
-      "via": "skills"
     }
   }
 }

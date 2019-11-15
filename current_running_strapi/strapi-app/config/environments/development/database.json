@@ -4,16 +4,16 @@
     "default": {
       "settings": {
         "client": "mongo",
-        "host": "db",
-        "srv": false,
+        "host": "tech-connect-lv49t.gcp.mongodb.net",
+        "srv": true,
         "port": "27017",
-        "database": "strapi",
-        "username": "",
-        "password": ""
+        "database": "tech-connect-database",
+        "username": "tech-connect-1",
+        "password": "WhpZNYab2aulWlA0"
       },
       "options": {
-        "authenticationDatabase": "strapi",
-        "ssl": false
+        "authenticationDatabase": "admin",
+        "ssl": true
       },
       "connector": "strapi-hook-mongoose"
     }

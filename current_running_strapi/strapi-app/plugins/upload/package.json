@@ -21,7 +21,7 @@
   "_resolved": "https://registry.npmjs.org/strapi-plugin-upload/-/strapi-plugin-upload-3.0.0-alpha.24.1.tgz",
   "_shasum": "21ba7a05a2670fc34c032f4bd3dc31224664fa31",
   "_spec": "strapi-plugin-upload@3.0.0-alpha.24.1",
-  "_where": "/usr/src/api/strapi-app",
+  "_where": "/usr/src/api/tech-connect",
   "author": {
     "name": "A Strapi developer"
   },

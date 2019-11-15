@@ -19,7 +19,27 @@
       "plugin": "upload",
       "required": false
     },
+    "project_description": {
+      "default": "",
+      "type": "text"
+    },
     "project_goals": {
+      "default": "",
+      "type": "text"
+    },
+    "project_needs": {
+      "default": "",
+      "type": "text"
+    },
+    "project_origins": {
+      "default": "",
+      "type": "text"
+    },
+    "project_status": {
+      "default": "",
+      "type": "text"
+    },
+    "project_org_description": {
       "default": "",
       "type": "text"
     },
@@ -27,21 +47,47 @@
       "default": "",
       "type": "text"
     },
-    "project_description": {
-      "default": "",
-      "type": "text"
-    },
     "project_timeline": {
       "default": "",
-      "type": "date"
+      "type": "text"
     },
-    "project_help": {
+    "project_blurb": {
       "default": "",
       "type": "text"
     },
-    "profiles": {
-      "collection": "profile",
-      "via": "projects"
+    "project_video": {
+      "default": "",
+      "type": "string"
+    },
+    "project_github": {
+      "default": "",
+      "type": "string"
+    },
+    "project_trello": {
+      "default": "",
+      "type": "string"
+    },
+    "project_slack": {
+      "default": "",
+      "type": "string"
+    },
+    "project_email": {
+      "default": "",
+      "type": "email"
+    },
+    "sponsor_name": {
+      "default": "",
+      "type": "string"
+    },
+    "sponsor_website": {
+      "default": "",
+      "type": "string"
+    },
+    "sponsor_image": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
     }
   }
 }

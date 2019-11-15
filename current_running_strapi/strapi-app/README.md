@@ -1,3 +1,3 @@
-# strapi-app
+# tech-connect
 
-A quick description of strapi-app.
+A quick description of tech-connect.

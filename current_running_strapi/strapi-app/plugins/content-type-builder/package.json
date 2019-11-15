@@ -21,7 +21,7 @@
   "_resolved": "https://registry.npmjs.org/strapi-plugin-content-type-builder/-/strapi-plugin-content-type-builder-3.0.0-alpha.24.1.tgz",
   "_shasum": "4f3f78299a03e4a6ee824ab9f9425eb1cc70bf2e",
   "_spec": "strapi-plugin-content-type-builder@3.0.0-alpha.24.1",
-  "_where": "/usr/src/api/strapi-app",
+  "_where": "/usr/src/api/tech-connect",
   "author": {
     "name": "Strapi team",
     "email": "hi@strapi.io",
