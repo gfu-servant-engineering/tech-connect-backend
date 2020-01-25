@@ -1,0 +1,20 @@
+{
+  "defaultConnection": "default",
+  "connections": {
+    "default": {
+      "connector": "mongoose",
+      "settings": {
+        "database": "tech-connect-database",
+        "host": "tech-connect-lv49t.gcp.mongodb.net",
+        "srv": "true",
+        "port": 27017,
+        "username": "tech-connect-1",
+        "password": "WhpZNYab2aulWlA0"
+      },
+      "options": {
+        "authenticationDatabase": "",
+        "ssl": true
+      }
+    }
+  }
+}
