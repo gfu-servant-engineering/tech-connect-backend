@@ -4,16 +4,16 @@
     "default": {
       "connector": "mongoose",
       "settings": {
-        "database": "tech-connect-database",
-        "host": "tech-connect-lv49t.gcp.mongodb.net",
-        "srv": "true",
-        "port": 27017,
-        "username": "tech-connect-1",
-        "password": "WhpZNYab2aulWlA0"
+        "database": "${process.env.DATABASE_NAME || 'strapi'}",
+        "host": "${process.env.DATABASE_HOST || '127.0.0.1'}",
+        "srv": "${process.env.DATABASE_SRV || 'false'}",
+        "port": "${process.env.DATABASE_PORT || 27017}",
+        "username": "${process.env.DATABASE_USERNAME || ''}",
+        "password": "${process.env.DATABASE_PASSWORD || ''}"
       },
       "options": {
-        "authenticationDatabase": "",
-        "ssl": true
+        "authenticationDatabase": "${process.env.DATABASE_AUTHENTICATION_DATABASE || ''}",
+        "ssl": "${process.env.DATABASE_SSL || 'false'}"
       }
     }
   }
