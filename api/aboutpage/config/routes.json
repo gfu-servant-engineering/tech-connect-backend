@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/aboutpages",
+      "handler": "aboutpage.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/aboutpages/count",
+      "handler": "aboutpage.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/aboutpages/:id",
+      "handler": "aboutpage.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/aboutpages",
+      "handler": "aboutpage.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/aboutpages/:id",
+      "handler": "aboutpage.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/aboutpages/:id",
+      "handler": "aboutpage.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
