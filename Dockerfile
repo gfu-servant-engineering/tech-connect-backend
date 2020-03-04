@@ -5,14 +5,14 @@ WORKDIR /my-path
 COPY ./package.json ./
 COPY ./yarn.lock ./
 
-RUN yarn install
+RUN yarn config set network-timeout 300000 && yarn install
 
 COPY . .
+
+ENV NODE_ENV production
 
 RUN yarn build
 
 EXPOSE 1337
-
-ENV NODE_ENV production
 
 CMD ["yarn", "start"]
