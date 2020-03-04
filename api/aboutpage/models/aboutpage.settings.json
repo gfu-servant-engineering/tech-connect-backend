@@ -1,0 +1,58 @@
+{
+  "info": {
+    "name": "aboutpage"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "templatekey": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "mission": {
+      "type": "text"
+    },
+    "headingAboutTechConnect": {
+      "type": "string"
+    },
+    "aboutTechConnect": {
+      "type": "text"
+    },
+    "image2": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "image3": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "headingAboutMaf": {
+      "type": "string"
+    },
+    "aboutMaf": {
+      "type": "text"
+    },
+    "quote": {
+      "type": "text"
+    },
+    "button": {
+      "type": "string"
+    }
+  },
+  "connection": "default",
+  "collectionName": "aboutpages"
+}
