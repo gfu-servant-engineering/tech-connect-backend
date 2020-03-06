@@ -82,6 +82,9 @@
       "via": "related",
       "plugin": "upload",
       "required": false
+    },
+    "short_description": {
+      "type": "string"
     }
   }
 }

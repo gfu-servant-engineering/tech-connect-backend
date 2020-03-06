@@ -1,4 +1,6 @@
 {
+  "connection": "default",
+  "collectionName": "aboutpages",
   "info": {
     "name": "aboutpage"
   },
@@ -23,7 +25,7 @@
       "type": "text"
     },
     "headingAboutTechConnect": {
-      "type": "string"
+      "type": "text"
     },
     "aboutTechConnect": {
       "type": "text"
@@ -41,7 +43,7 @@
       "required": false
     },
     "headingAboutMaf": {
-      "type": "string"
+      "type": "text"
     },
     "aboutMaf": {
       "type": "text"
@@ -50,9 +52,7 @@
       "type": "text"
     },
     "button": {
-      "type": "string"
+      "type": "text"
     }
-  },
-  "connection": "default",
-  "collectionName": "aboutpages"
+  }
 }

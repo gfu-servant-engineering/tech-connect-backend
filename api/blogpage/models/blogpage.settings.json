@@ -16,7 +16,7 @@
       "type": "string"
     },
     "image": {
-      "collection": "file",
+      "model": "file",
       "via": "related",
       "plugin": "upload",
       "required": false
@@ -24,8 +24,11 @@
     "date": {
       "type": "date"
     },
-    "description": {
-      "type": "text"
+    "Description": {
+      "type": "richtext"
+    },
+    "short_description": {
+      "type": "string"
     }
   }
 }
