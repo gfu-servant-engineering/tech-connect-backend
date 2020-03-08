@@ -82,6 +82,11 @@
       "via": "related",
       "plugin": "upload",
       "required": false
+    },
+    "Draft_flag": {
+      "type": "boolean",
+      "default": true,
+      "private": true
     }
   }
 }
