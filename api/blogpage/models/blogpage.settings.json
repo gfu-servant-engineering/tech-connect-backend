@@ -28,7 +28,7 @@
       "type": "richtext"
     },
     "short_description": {
-      "type": "string"
+      "type": "text"
     }
   }
 }

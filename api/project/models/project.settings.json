@@ -84,7 +84,7 @@
       "required": false
     },
     "short_description": {
-      "type": "string"
+      "type": "text"
     }
   }
 }
