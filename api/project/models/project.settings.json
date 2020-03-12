@@ -83,10 +83,10 @@
       "plugin": "upload",
       "required": false
     },
-    "Draft_flag": {
+    "is_draft": {
       "type": "boolean",
       "default": true,
-      "private": true
+      "required": true
     }
   }
 }
