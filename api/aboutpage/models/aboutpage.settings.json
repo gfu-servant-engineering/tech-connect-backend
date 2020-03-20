@@ -25,7 +25,7 @@
       "type": "text"
     },
     "headingAboutTechConnect": {
-      "type": "text"
+      "type": "string"
     },
     "aboutTechConnect": {
       "type": "text"
@@ -43,7 +43,7 @@
       "required": false
     },
     "headingAboutMaf": {
-      "type": "text"
+      "type": "string"
     },
     "aboutMaf": {
       "type": "text"
@@ -52,7 +52,7 @@
       "type": "text"
     },
     "button": {
-      "type": "text"
+      "type": "string"
     }
   }
 }
