@@ -84,7 +84,13 @@
       "required": false
     },
     "short_description": {
-      "type": "text"
+      "type": "text",
+      "required": true
+    },
+    "is_draft": {
+      "type": "boolean",
+      "default": true,
+      "required": true
     }
   }
 }
