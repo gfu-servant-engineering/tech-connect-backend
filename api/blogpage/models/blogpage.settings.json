@@ -24,7 +24,10 @@
     "date": {
       "type": "date"
     },
-    "description": {
+    "Description": {
+      "type": "richtext"
+    },
+    "short_description": {
       "type": "text"
     }
   }

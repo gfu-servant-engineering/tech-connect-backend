@@ -83,6 +83,10 @@
       "plugin": "upload",
       "required": false
     },
+    "short_description": {
+      "type": "text",
+      "required": true
+    },
     "is_draft": {
       "type": "boolean",
       "default": true,

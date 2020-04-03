@@ -1,4 +1,6 @@
 {
+  "connection": "default",
+  "collectionName": "aboutpages",
   "info": {
     "name": "aboutpage"
   },
@@ -52,7 +54,5 @@
     "button": {
       "type": "string"
     }
-  },
-  "connection": "default",
-  "collectionName": "aboutpages"
+  }
 }
