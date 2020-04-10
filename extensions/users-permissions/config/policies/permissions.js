@@ -29,7 +29,7 @@ module.exports = async (ctx, next) => {
       try {
         const data = await axios({
           method: 'post',
-          url: 'http://localhost:1337/userinfo',
+          url: `https://${process.env.GATSBY_AUTH0_DOMAIN}/userinfo`,
           headers: {
             Authorization: ctx.request.header.authorization
           }
