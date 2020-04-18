@@ -87,6 +87,9 @@
       "type": "boolean",
       "default": true,
       "required": true
+    },
+    "submitter_id": {
+      "type": "string"
     }
   }
 }
