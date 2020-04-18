@@ -89,7 +89,8 @@
       "required": true
     },
     "submitter_id": {
-      "type": "string"
+      "type": "string",
+      "required": true
     }
   }
 }
