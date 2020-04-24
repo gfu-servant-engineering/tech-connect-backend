@@ -90,7 +90,8 @@
     },
     "submitter_id": {
       "type": "string",
-      "required": true
+      "required": true,
+      "private": true
     }
   }
 }
